@@ -36,7 +36,7 @@ The yellow taxi trip records include fields
 ## Architecture
 
 ### Architecture Framework
-![Alt text](./Graphs/architecture_framework?raw=true "Title")
+![Alt text](./graphs/architecture_framework?raw=true "Title")
 ### NYC Taxi Cab Ingestion Architecture
 ![Alt text](./Graphs/nyc_taxi_cab_ingestion_architecture?raw=true "Title")
 
