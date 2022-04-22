@@ -1,0 +1,22 @@
+{
+    "configurations": [      
+        
+        
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=bd510fall2021;AccountKey=FO9QbIrOFyQHmPYieRVinCrxNdC7iuH8nY8STjSU3Zit8oAe2UqObdekppkagjX+KNk2qQHgudss4nKutTToVw==;EndpointSuffix=core.windows.net",
+                "DOWNLOAD_PATH_FROM_ROOT": "downloads",
+                "EVENTHUB_CONNECTION_STRING": "Endpoint=sb://bd520w2022.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=VybVBOYURTOx/euPd/e8mWkkxA4BgvFgcvGrovrKwV8=",
+                "EVENTHUB_TOPIC": "vdcadena",
+                "PYTHONPATH": "${cwd}"
+            }
+        },
+    ],
+    
+}

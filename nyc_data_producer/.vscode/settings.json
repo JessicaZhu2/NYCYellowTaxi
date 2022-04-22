@@ -1,0 +1,9 @@
+{
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    
+    "python.autoComplete.extraPaths": ["./src"],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
