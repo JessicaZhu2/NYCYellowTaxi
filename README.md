@@ -1,4 +1,5 @@
-# Exploratary Data Analysis on Depression Anxiety Stress
+# Data Pipeline Application for the NYC Yellow Taxi CSV files
+
 Final Project for Big Data Class at University of Washington
 By Jessica Zhu and Victor Cadena
 
