@@ -36,23 +36,23 @@ The yellow taxi trip records include fields
 ## Architecture
 
 ### Architecture Framework
-![Alt text](./graphs/architecture_framework?raw=true "Title")
+![Alt text](./graphs/architecture_framework.png.png?raw=true "Title")
 ### NYC Taxi Cab Ingestion Architecture
-![Alt text](./Graphs/nyc_taxi_cab_ingestion_architecture?raw=true "Title")
+![Alt text](./graphs/nyc_taxi_cab_ingestion_architecture.png?raw=true "Title")
 
 
 ## Streaming
-![Alt text](./Graphs/process_to_stress?raw=true "Title")
+![Alt text](./graphs/process_to_stress.png?raw=true "Title")
 
-![Alt text](./Graphs/producer_high_level_code?raw=true "Title")
+![Alt text](./graphs/producer_high_level_code.png?raw=true "Title")
 
 ## Data Cleaning
 
-![Alt text](./Graphs/default_schema_of_kafka_stream?raw=true "Title")
+![Alt text](./graphs/default_schema_of_kafka_stream.png?raw=true "Title")
 
-![Alt text](./Graphs/creating_df_of_value_column?raw=true "Title")
+![Alt text](./graphs/creating_df_of_value_column.png?raw=true "Title")
 
-![Alt text](./Graphs/data_mapping_wrangling?raw=true "Title")
+![Alt text](./graphs/data_mapping_wrangling.png?raw=true "Title")
 
 
 ## EDA
@@ -60,23 +60,23 @@ The yellow taxi trip records include fields
 
 
 ### EDA: Passenger Count Distribution
-![Alt text](./Graphs/count_vs_ride_count?raw=true "Title")
+![Alt text](./graphs/count_vs_ride_count.png?raw=true "Title")
 
 
 ### EDA: Ride Distance Distribution
-![Alt text](./Graphs/distribution_of_ride_distance?raw=true "Title")
+![Alt text](./graphs/distribution_of_ride_distance.png?raw=true "Title")
 
 ### EDA: Ride Duration Distribution
-![Alt text](./Graphs/distribution_of_ride_duration?raw=true "Title")
+![Alt text](./graphs/distribution_of_ride_duration.png?raw=true "Title")
 
 ### EDA: Distribution of Payment Types
-![Alt text](./Graphs/payment_type?raw=true "Title")
+![Alt text](./graphs/payment_type.png?raw=true "Title")
 
 
 ### EDA: Distribution of Amount Charged to Passenger
 
 ## Time Windows
-![Alt text](./Graphs/timestamp?raw=true "Title")
+![Alt text](./graphs/timestamp.png?raw=true "Title")
 ## Delta Table
-![Alt text](./Graphs/sink_to_delta_table?raw=true "Title")
+![Alt text](./graphs/sink_to_delta_table.png?raw=true "Title")
 
