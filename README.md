@@ -37,7 +37,7 @@ The yellow taxi trip records include fields
 ## Architecture
 
 ### Architecture Framework
-![Alt text](./graphs/architecture_framework.png.png?raw=true "Title")
+![Alt text](./graphs/architecture.png?raw=true "Title")
 ### NYC Taxi Cab Ingestion Architecture
 ![Alt text](./graphs/nyc_taxi_cab_ingestion_architecture.png?raw=true "Title")
 
@@ -84,7 +84,7 @@ Now we will look at some graphs we did for our Exploratory data analysis
 
 
 ### EDA: Passenger Count Distribution
-![Alt text](./graphs/count_vs_ride_count.png?raw=true "Title")
+![Alt text](./graphs/ride_counts.png?raw=true "Title")
 Aggregation on the stream to group by the passenger count
 
 * As we can majority of the rides had only one passenger - at this point of the stream 700K rides
