@@ -3,6 +3,25 @@
 Final Project for Big Data Class at University of Washington
 By Jessica Zhu and Victor Cadena
 
+- [Data Pipeline Application for the NYC Yellow Taxi CSV files](#data-pipeline-application-for-the-nyc-yellow-taxi-csv-files)
+  * [Data Introduction](#data-introduction)
+  * [Objective of Project](#objective-of-project)
+  * [Architecture](#architecture)
+    + [Architecture Framework](#architecture-framework)
+    + [NYC Taxi Cab Ingestion Architecture](#nyc-taxi-cab-ingestion-architecture)
+  * [Streaming](#streaming)
+  * [Data Cleaning](#data-cleaning)
+  * [EDA](#eda)
+    + [EDA: Passenger Count Distribution](#eda--passenger-count-distribution)
+    + [EDA: Ride Distance Distribution](#eda--ride-distance-distribution)
+    + [EDA: Ride Duration Distribution](#eda--ride-duration-distribution)
+    + [EDA: Distribution of Payment Types](#eda--distribution-of-payment-types)
+    + [EDA: Distribution of Amount Charged to Passenger](#eda--distribution-of-amount-charged-to-passenger)
+  * [Time Windows](#time-windows)
+  * [Delta Table](#delta-table)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Data Introduction
 
