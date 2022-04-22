@@ -43,7 +43,7 @@ The yellow taxi trip records include fields
 
 
 ## Streaming
-![Alt text](./graphs/process_to_stress.png?raw=true "Title")
+![Alt text](./graphs/process_to_stream.png?raw=true "Title")
 
 ![Alt text](./graphs/producer_high_level_code.png?raw=true "Title")
 
