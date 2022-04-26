@@ -25,7 +25,7 @@ By Jessica Zhu and Victor Cadena
 
 ## Data Introduction
 
-We chose to work on the NYC Taxi Cab Trip data
+We chose to work on the NYC Taxi Cab Trip data from the source: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 Included data for different types of taxi such as yellow taxi and green taxi.
 Green taxi has some restrictions on where they are allowed to be hailed
@@ -40,6 +40,14 @@ The yellow taxi trip records include fields
 * payment types
 * passenger counts
 
+### Data Introduction: CSV files
+
+![Alt text](./graphs/data_intro.png?raw=true "Title")
+
+
+### Data Introduction: Dataframe
+
+![Alt text](./graphs/dataframe.png?raw=true "Title")
 
 
 ## Objective of Project
