@@ -104,6 +104,8 @@ Now we will look at some graphs we did for our Exploratory data analysis
 
 ### EDA: Passenger Count Distribution
 ![Alt text](./graphs/ride_counts.png?raw=true "Title")
+
+
 Aggregation on the stream to group by the passenger count
 
 * As we can majority of the rides had only one passenger - at this point of the stream 700K rides
@@ -125,6 +127,7 @@ This means that most of the rides are short distance and are less than 20 mins
 
 ### EDA: Ride Duration Distribution
 ![Alt text](./graphs/distribution_of_ride_duration.png?raw=true "Title")
+
 This is the distribution of the ride duration. 
 
 Like the Ride Distance distribution, it is also is Right-Skewed
