@@ -3,6 +3,25 @@
 Final Project for Big Data Class at University of Washington
 By Jessica Zhu and Victor Cadena
 
+- [Data Pipeline Application for the NYC Yellow Taxi CSV files](#data-pipeline-application-for-the-nyc-yellow-taxi-csv-files)
+  * [Data Introduction](#data-introduction)
+  * [Objective of Project](#objective-of-project)
+  * [Architecture](#architecture)
+    + [Architecture Framework](#architecture-framework)
+    + [NYC Taxi Cab Ingestion Architecture](#nyc-taxi-cab-ingestion-architecture)
+  * [Streaming](#streaming)
+  * [Data Cleaning](#data-cleaning)
+  * [EDA](#eda)
+    + [EDA: Passenger Count Distribution](#eda--passenger-count-distribution)
+    + [EDA: Ride Distance Distribution](#eda--ride-distance-distribution)
+    + [EDA: Ride Duration Distribution](#eda--ride-duration-distribution)
+    + [EDA: Distribution of Payment Types](#eda--distribution-of-payment-types)
+    + [EDA: Distribution of Amount Charged to Passenger](#eda--distribution-of-amount-charged-to-passenger)
+  * [Time Windows](#time-windows)
+  * [Delta Table](#delta-table)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Data Introduction
 
@@ -43,7 +62,7 @@ The yellow taxi trip records include fields
 
 
 ## Streaming
-![Alt text](./graphs/process_to_stress.png?raw=true "Title")
+![Alt text](./graphs/process_to_stream.png?raw=true "Title")
 
 ![Alt text](./graphs/producer_high_level_code.png?raw=true "Title")
 
@@ -85,6 +104,8 @@ Now we will look at some graphs we did for our Exploratory data analysis
 
 ### EDA: Passenger Count Distribution
 ![Alt text](./graphs/ride_counts.png?raw=true "Title")
+
+
 Aggregation on the stream to group by the passenger count
 
 * As we can majority of the rides had only one passenger - at this point of the stream 700K rides
@@ -106,6 +127,7 @@ This means that most of the rides are short distance and are less than 20 mins
 
 ### EDA: Ride Duration Distribution
 ![Alt text](./graphs/distribution_of_ride_duration.png?raw=true "Title")
+
 This is the distribution of the ride duration. 
 
 Like the Ride Distance distribution, it is also is Right-Skewed
@@ -115,6 +137,7 @@ Like the Ride Distance distribution, it is also is Right-Skewed
 
 ### EDA: Distribution of Payment Types
 ![Alt text](./graphs/payment_type.png?raw=true "Title")
+
 This is the distribution of payment types
 
 * We can see that most of the customer’s paid using a credit card of about 78%.
@@ -132,6 +155,8 @@ Like the other previous distribution, it is also is Right-Skewed
 
 ## Time Windows
 ![Alt text](./graphs/timestamp.png?raw=true "Title")
+
 ## Delta Table
 ![Alt text](./graphs/sink_to_delta_table.png?raw=true "Title")
+
 
