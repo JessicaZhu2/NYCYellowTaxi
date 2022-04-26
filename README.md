@@ -137,6 +137,7 @@ Like the Ride Distance distribution, it is also is Right-Skewed
 
 ### EDA: Distribution of Payment Types
 ![Alt text](./graphs/payment_type.png?raw=true "Title")
+
 This is the distribution of payment types
 
 * We can see that most of the customer’s paid using a credit card of about 78%.
@@ -154,6 +155,8 @@ Like the other previous distribution, it is also is Right-Skewed
 
 ## Time Windows
 ![Alt text](./graphs/timestamp.png?raw=true "Title")
+
 ## Delta Table
 ![Alt text](./graphs/sink_to_delta_table.png?raw=true "Title")
+
 
