@@ -53,7 +53,7 @@ The yellow taxi trip records include fields
 ## Objective of Project
 
 * Build a data pipeline application for the NYC Yellow Taxi CSV files
-* Simulate a stream from CSV using Kafka as if it were pouring live
+* Simulate a stream with CSV files as if it were pouring live
 * Once data is streamed in Event Hub topic, use structured streaming to read/analyze data
 * Create some visualizations to understand the data
   * Grouping certain columns (such as passenger_count) to do a count aggregation
