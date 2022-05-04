@@ -129,7 +129,7 @@ Here we look at the distribution of the ride distance.
 
 Like the Ride Distance distribution, it is also is Right-Skewed
 
-This means that most of the rides are short distance and are less than 20 mins
+This means that most of the rides are short distance
 * Majority of the rides are under 2 or 3 miles
 
 
@@ -140,7 +140,7 @@ This is the distribution of the ride duration.
 
 Like the Ride Distance distribution, it is also is Right-Skewed
 
-* This means that most of the rides are short distance and are less than 20 mins
+* This means that most of the rides are less than 20 mins
 
 
 ### EDA: Distribution of Payment Types
